@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local tests
+_smoke_test/
+
+# Data and outputs
+data/
+datasets/
+outputs/
+results/
+checkpoints/
+models/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# Medical/protected/heavy data
+*.npz
+*.npy
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.cubin
+*.cu
